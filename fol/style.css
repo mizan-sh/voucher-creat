@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.table {
+    height: 320px;
+    width: 450px;
+    float: left;
+    margin-left: 200px;
+    line-height:-2px;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    padding-left: 10px;
+    font-size: 18px;
+  
+
+    
+    
+    
+}
+.table2 {
+     height: 320px;
+    float: right;
+   margin-right: 150px;
+   line-height:-2px;
+   width: 450px;
+   border-top: 1px solid red;
+   border-left: 1px solid red;
+   border-right: 1px solid red;
+   padding-left: 10px;
+   font-size: 18px;
+
+    
+}
+.div1 {
+    float: left;
+    margin-left: 230px;
+   
+}
+.div2 {
+    float: right;
+   margin-right: 240px;
+}
+.course{
+    float: left;
+    height: 300px;
+    width: 402px;
+    margin-left: 200px;
+   
+}
+.course1{
+    float: right;
+    height: 300px;
+    width: 400px;
+    margin-right:200px;
+
+}
+input{
+    border: none;
+    font-size: 16px;
+}
+tr{
+    border: none;
+}
+
+
+.foot{
+    border: 1px solid red;
+    float: left;
+    width: 450px;
+    margin-left: 200px;
+    padding-left: 10px;
+    margin-top: -175px;
+    border-top: 1px solid black;
+}
+ 
+
+
+.foot1{
+    border: 1px solid red;
+    margin-left: 89px;
+    width: 450px;
+  
+    float: right;
+    padding-left: 10px;
+    margin-top: -175px;
+    margin-right: 150px;
+    border-top: 1px solid black;
+}
+
+.pay{
+    text-align: center;
+    width: 110px;
+    font-size: 14px;
+}
+#date{
+    width: 105px;
+    text-align: center;
+    font-size: 14px;
+ 
+}
+h6{
+    font-size: 20px;
+}
+h5{
+    margin-left: 310px;
+    line-height: 10px;
+    margin-bottom: 5px;
+}
+.span{
+    font-size: 15px;
+}
+
+.down{
+    width: 100%;
+}
+ 
+
+#six{
+    width: 10px;
+    height: 15px;
+}
+#six1{
+    width: 10px;
+    height: 15px;
+}
+
+
+#word{
+    width: 382px;
+    height: 30px;
+
+   
+}
+#word1{
+    width: 382px;
+    height: 30px;
+    
+    
+}
+h2{
+    font-size: 10px;
+}
+hr{
+    border-color: red;
+}
+.money{
+    margin-top:-16px;
+}
+#prin{
+   
+    margin-left: 350px;
+    margin-bottom: 50px;
+    
+}
