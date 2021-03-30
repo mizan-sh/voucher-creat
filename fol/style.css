@@ -6,16 +6,17 @@
 }
 .table {
     height: 320px;
-    width: 450px;
+    width: 456px;
     float: left;
     margin-left: 200px;
     line-height:-2px;
-    border-top: 1px solid red;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    color:blue;
     padding-left: 10px;
-    font-size: 18px;
-  
+    font-size: 19px;
+
 
     
     
@@ -24,39 +25,49 @@
 .table2 {
      height: 320px;
     float: right;
-   margin-right: 150px;
+   margin-right: 149px;
    line-height:-2px;
-   width: 450px;
-   border-top: 1px solid red;
-   border-left: 1px solid red;
-   border-right: 1px solid red;
+   width: 456px;
+   border-top: 2px solid red;
+   border-left: 2px solid red;
+   border-right: 2px solid red;
    padding-left: 10px;
-   font-size: 18px;
+   font-size: 19px;
+   color:blue;
+
 
     
 }
 .div1 {
     float: left;
     margin-left: 230px;
+    color:blue;
+
    
 }
 .div2 {
     float: right;
    margin-right: 240px;
+   color:blue;
+
 }
 .course{
     float: left;
     height: 300px;
-    width: 402px;
+    width: 404px;
     margin-left: 200px;
+    color:blue;
+
    
 }
 .course1{
     float: right;
     height: 300px;
-    width: 400px;
-    margin-right:200px;
+    width: 404px;
+    margin-right:201px;
+    color:blue;
 
+   
 }
 input{
     border: none;
@@ -68,47 +79,59 @@ tr{
 
 
 .foot{
-    border: 1px solid red;
+    border: 2px solid red;
+    border-top: none;
     float: left;
-    width: 450px;
+    width: 456px;
     margin-left: 200px;
     padding-left: 10px;
     margin-top: -175px;
-    border-top: 1px solid black;
+    font-size: 18px;
+    color:blue;
+
+    
 }
  
 
 
 .foot1{
-    border: 1px solid red;
+    border: 2px solid red;
+    border-top: none;
     margin-left: 89px;
-    width: 450px;
+    width: 456px;
+    color:blue;
+
   
     float: right;
     padding-left: 10px;
-    margin-top: -175px;
-    margin-right: 150px;
-    border-top: 1px solid black;
+    margin-top: -183px;
+    margin-right: 149px;
+    font-size: 18px;
+  
 }
 
 .pay{
     text-align: center;
-    width: 110px;
-    font-size: 14px;
+    width: 102px;
+    font-size: 15px;
+    color:blue;
+
 }
 #date{
-    width: 105px;
+    width:115px;
     text-align: center;
-    font-size: 14px;
- 
+    font-size: 15px;
+    color:blue;
+
 }
 h6{
     font-size: 20px;
 }
 h5{
-    margin-left: 310px;
-    line-height: 10px;
-    margin-bottom: 5px;
+    margin-left: 330px;
+    line-height: 5px;
+    margin-bottom: 3px;
+    margin-top: 15px;
 }
 .span{
     font-size: 15px;
@@ -132,12 +155,20 @@ h5{
 #word{
     width: 382px;
     height: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    color:blue;
+
 
    
 }
 #word1{
     width: 382px;
     height: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    color:blue;
+
     
     
 }
@@ -153,6 +184,13 @@ hr{
 #prin{
    
     margin-left: 350px;
-    margin-bottom: 50px;
+    margin-top:20px;
+    margin-bottom:50px;
     
+}
+#name{
+    width: 290px;
+}
+#name1{
+    width: 290px;
 }

@@ -14,13 +14,13 @@
     <div class="footer" style="margin-top: 50px;">
         
         <div class="div1">
-            <img src="fol/logo.png" alt="" style="float: left ;">
+            <img src="fol/logo.png" alt="" style="float: left ; margin-top: 25px;">
           
             <h3 style="float: right; margin-top: 35px;"> Ajmirigonj Digital Post Office <br>Computer Training Center<br><span class="span">Ajmirigonj,Hobigonj-3360 <hr></span><br> <center class="money"><span>MOney recipt</span></center><span></h3>
            
         </div>
         <div class="div2">
-            <img src="fol/logo.png" alt="" style="float: left;">
+            <img src="fol/logo.png" alt="" style="float: left; margin-top: 25px; ">
             <h3 style="float: right; margin-top: 35px;">Ajmirigonj Digital Post Office <br>Computer Training Center<br><span class="span">Ajmirigonj,Hobigonj-3360 <hr></span><br> <center class="money"><span>MOney recipt</span></center></h3>
         
         </div>
@@ -32,7 +32,7 @@
 
 <!-- body section start -->
 <section>
-<div class="table" style="background-image:backgraound.png;">
+<div class="table" id="back">
     <table  height="300px" width="420px"> 
       
         <tr><td>Studennt Name </td><td>: &nbsp; <input type="text" value=" " id="name"> </td></tr>
@@ -48,10 +48,10 @@
 
 <div class="table2">
 
-<table  height="300px" width="400px"> 
+<table  height="300px" width="420px"> 
        
     <tr><td>Studennt Name </td><td>: &nbsp;<input type="text" value="" id="name1"></td></tr>
-    <tr><td>Student ID </td><td>: &nbsp; <input type="text" value="20210220" id="id1"></td></tr>
+    <tr><td>Student ID </td><td>: &nbsp; <input type="text" value="" id="id1"></td></tr>
     <tr><td>Academic Year </td><td>: &nbsp; 2021</td></tr>
     <tr><td>Class </td><td>: &nbsp; Diploma in application software <span><input type="text" value="6" id="six1"></span> month course</td></tr>
     <tr><td>Group </td><td> : &nbsp;    N/A</td></tr>
@@ -69,7 +69,7 @@
 <!-- body2 section start -->
 <section>
     <div class="course">
-        <table border="1">
+        <table border="1" style="border: 2px solid red;">  
             <tr>
                 <th>Course Name</th>
                 <th>Date</th>
@@ -94,7 +94,7 @@
                 <td>  <input type="text" value="" class="pay" id="resul"></td>
             </tr>
             <tr>
-                <td colspan="4" height="30px"><b> In word:</b><input type="text" value="" id="word"></td>
+                <td colspan="4" height="30px"><b> In word:</b><input type="text" value="&nbsp;" id="word"></td>
             </tr>
             
         </table>
@@ -102,16 +102,18 @@
 
 
     <div class="course1">
-        <table border="1">
+        <table border="1"  style="border: 2px solid red;">
             <tr>
                 <th>Course Name</th>
                 <th>Date</th>
+
                 <th>payable</th>
                 <th>Pay details</th>
             </tr>
             <tr>
               <td rowspan="3">  <input type="text" value="6 Month Course" id="date"></td>
               <td rowspan="3">  <input type="text" value="10 March 2021" id="date"></td>
+
               <td>  <input type="text" value="Total pay" class="pay" id="pay"></td>
               <td>  <input type="text" value="4500"  class="pay" id="pay"></td>
 
@@ -148,7 +150,7 @@
             <h6>Institute Copy</h6>
       </table>
 
-      <h5>------------------------</h5>
+      <h5>---------------------</h5>
       <h5> &nbsp Accountant sign</h5>
   </div>
   <div class="foot1"> 
@@ -162,7 +164,7 @@
             <tr><td>E-mail</td><td>: &nbsp; mdbadshamiah02@gmail.com</td></tr></p>
             <h6>Student Copy</h6>
     </table>
-    <h5>------------------------</h5>
+    <h5>---------------------</h5>
     <h5> &nbsp Accountant sign</h5>
 
    
@@ -262,6 +264,29 @@ $("#pay1").keyup(function() {
 	// calculator section end
 
 
+</script>
+
+
+<script>
+    $("#payment").click(function() {
+        var today = new Date();
+var dd = today.getDate();
+
+var mm = today.getMonth()+1; 
+var yyyy = today.getFullYear();
+if(dd<10) 
+{
+    dd='0'+dd;
+} 
+
+if(mm<10) 
+{
+    mm='0'+mm;
+} 
+today = mm+'-'+dd+'-'+yyyy;
+var c=document.getElementById("payment1").value=today;
+var c=document.getElementById("payment").value=today;
+    })
 </script>
 
     
